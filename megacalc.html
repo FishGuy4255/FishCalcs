@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaCalc</title>
+    <link rel="stylesheet" href="fishcalcsCSS.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+<div class="container">
+    <h1>MegaCalc</h1>
+    <div class="input-group">
+        <label for="length">Length (L) in inches:</label>
+        <input type="number" id="length" placeholder="Enter length">
+    </div>
+    <div class="input-group">
+        <label for="width">Width (W) in inches:</label>
+        <input type="number" id="width" placeholder="Enter width">
+    </div>
+    <div class="input-group">
+        <label for="height">Height (H) in inches:</label>
+        <input type="number" id="height" placeholder="Enter height">
+    </div>
+    <div class="input-group">
+        <label for="substrateDepth">Substrate Depth in inches:</label>
+        <input type="number" id="substrateDepth" placeholder="Enter substrate depth">
+    </div>
+    <button onclick="calculate()">Calculate</button>
+    <div class="results">
+        <p>Amount of Gallons: <span id="gallons"></span></p>
+        <p>Volume in Sq Inches: <span id="volume"></span></p>
+        <p>Number of Fish: <span id="fish"></span></p>
+        <p>Amount of Stress Zyme (5ml per 10 gallons): <span id="stressZyme"></span></p>
+    </div>
+</div>
+ <div class="back-to-home">
+        <button onclick="backToHomepage()" align="right">Back to Homepage</button>
+    </div>
+
+<script src="rectangularscript.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="fishcalcsCSS.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+<div class="container">
+    <h1>Unit Converter</h1>
+    <div class="converter">
+        <label for="cmToM">Centimeters to Meters:</label>
+        <input type="number" id="cmToM" placeholder="Enter value in cm">
+        <button onclick="convertCmToM()">Convert</button>
+        <p id="resultCmToM"></p>
+    </div>
+
+    <div class="converter">
+        <label for="mToCm">Meters to Centimeters:</label>
+        <input type="number" id="mToCm" placeholder="Enter value in m">
+        <button onclick="convertMToCm()">Convert</button>
+        <p id="resultMToCm"></p>
+    </div>
+
+    <div class="converter">
+        <label for="inToCm">Inches to Centimeters:</label>
+        <input type="number" id="inToCm" placeholder="Enter value in inches">
+        <button onclick="convertInToCm()">Convert</button>
+        <p id="resultInToCm"></p>
+    </div>
+
+    <div class="converter">
+        <label for="cmToIn">Centimeters to Inches:</label>
+        <input type="number" id="cmToIn" placeholder="Enter value in cm">
+        <button onclick="convertCmToIn()">Convert</button>
+        <p id="resultCmToIn"></p>
+    </div>
+
+    <div class="converter">
+        <label for="galToLiters">Gallons to Liters:</label>
+        <input type="number" id="galToLiters" placeholder="Enter value in gallons">
+        <button onclick="convertGalToLiters()">Convert</button>
+        <p id="resultGalToLiters"></p>
+    </div>
+
+    <div class="converter">
+        <label for="litersToGal">Liters to Gallons:</label>
+        <input type="number" id="litersToGal" placeholder="Enter value in liters">
+        <button onclick="convertLitersToGal()">Convert</button>
+        <p id="resultLitersToGal"></p>
+    </div>
+</div>
+  <div class="back-to-home">
+        <button onclick="backToHomepage()" align="right">Back to Homepage</button>
+    </div>
+</div>
+
+
+<script src="rectangularscript.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
