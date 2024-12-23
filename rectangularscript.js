@@ -65,7 +65,7 @@ function convertLitersToGal() {
 // Your existing conversion functions...
 
 function backToHomepage() {
-    window.location.href = "fishcalcs.html"; // Replace "index.html" with the actual path to your homepage
+    window.location.href = "index.html"; // Replace "index.html" with the actual path to your homepage
 }
 function calculate() {
     var length = parseFloat(document.getElementById('length').value);
